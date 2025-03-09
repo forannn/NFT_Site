@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+p {
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* Utility */
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+header,
+.section-two-container,
+.dark {
+    background: rgb(95, 41, 163);
+    color: #fff;
+}
+
+.section-one-heading,
+h3 {
+    font-size: 24px;
+}
+
+/* header */
+
+header {
+    padding-top: 0.01px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: rgb(208, 170, 255);
+    font-size: 20px;
+}
+
+/* section 1 */
+
+.section-one-heading {
+    color: rgb(43, 40, 58);
+    margin-top: 20px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.section-one-link {
+    color: rgb(239, 88, 57);
+    text-decoration: underline dotted;
+}
+
+.section-one-link:hover {
+    color: blue;
+}
+.section-one-link:active {
+    color: purple;
+}
+
+/* section-two */
+
+.section-two-container {
+    padding-bottom: 25px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 300px;
+}
+
+.link-btn:hover {
+    background: yellow;
+}
+
+.link-btn:active {
+    background: black;
+}
+
+.mid {
+    background: rgb(208, 170, 255);
+}
+
+.light {
+    background: #fff;
+}
+
+/* footer  */
+
+footer {
+    color: rgb(95, 41, 163);
+    text-align: center;
+}
+
+footer p {
+    margin: 40px;
+}
